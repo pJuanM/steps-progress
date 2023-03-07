@@ -192,3 +192,81 @@ form .page .btns button.next{
   display: block;
   fill: white;
 }
+
+@media (min-width: 320px ) and (max-width: 374px) {
+  .container {
+    width: 70vw;
+    height: 80vh;
+  }
+  .container header{
+    font-size: 1.2rem;
+  }
+  .container .progress-bar .step {
+    width: 25%;
+    margin: 0px 5px;
+  }
+  .container .progress-bar .step p {
+    font-size: 0.870rem;
+  }
+  .progress-bar .step .bullet::before,
+  .progress-bar .step .bullet::after {
+    width: 1.2rem;
+  }
+  .form-outer form .page .title {
+    font-size: 1rem;
+  }
+  
+  form .page .field .label {
+    font-size: 0.8rem; 
+  }
+  form .page .field input {
+    width: 65vw;
+    font-size: 12px;
+  }
+  form .page .field button {
+    width: 70vw;
+  }
+  .form-outer form .page .field {
+    width: 70vw;
+  }
+
+}
+
+@media (min-width: 375px) and (max-width: 420px) {
+
+    .container {
+      width: 70vw;
+      height: 80vh;
+    }
+    .container header{
+      font-size: 1.5rem;
+    }
+    .container .progress-bar .step {
+      width: 25%;
+    }
+    .container .progress-bar .step p {
+      font-size: 1rem;
+    }
+    .progress-bar .step .bullet::before,
+    .progress-bar .step .bullet::after {
+      width: 1.780rem;
+    }
+    .form-outer form .page .title {
+      font-size: 1.2rem;
+    }
+    
+    form .page .field .label {
+      font-size: 0.9rem; 
+    }
+    form .page .field input {
+      width: 65vw;
+      font-size: 15px;
+    }
+    form .page .field button {
+      width: 70vw;
+    }
+    .form-outer form .page .field {
+      width: 70vw;
+    }
+}
+
