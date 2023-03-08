@@ -87,6 +87,20 @@ form .page .field button{
   text-transform: uppercase;
   transition: 0.5s ease;
 }
+
+
+
+form .page .field button:disabled {
+  cursor: default;
+  background: grey;
+  opacity: .4;
+}
+form .page .field button:enabled {
+  background: purple;  
+}
+
+
+
 form .page .field button:hover{
   background: #000;
 }
@@ -203,7 +217,6 @@ form .page .btns button.next{
   }
   .container .progress-bar .step {
     width: 25%;
-    margin: 0px 5px;
   }
   .container .progress-bar .step p {
     font-size: 0.870rem;
@@ -212,6 +225,7 @@ form .page .btns button.next{
   .progress-bar .step .bullet::after {
     width: 1.2rem;
   }
+ 
   .form-outer form .page .title {
     font-size: 1rem;
   }
